@@ -1,5 +1,6 @@
 import React from 'react';
 import ListItem from './ListItem';
+import './ListItem.css'
 
 const ChartList = ({songs}) => {
     const songsItems = songs.map((song, index) => {
