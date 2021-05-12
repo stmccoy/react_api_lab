@@ -17,7 +17,8 @@ const ChartContainer = () =>  {
 
     return (
         <div>
-            <ChartList songs={songs} />
+            <h1>Apple Music Charts</h1>
+            <ChartList songs={songs}/>
         </div>
     )
 

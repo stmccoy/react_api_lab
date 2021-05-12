@@ -8,12 +8,11 @@ const ChartList = ({songs}) => {
     })
 
     return (
-        <div>
-            <ol>
-            {songsItems}
-            </ol>
-        </div>
-    )
+        
+    <ol>
+        {songsItems}
+    </ol>
+    );
 }
 
 
