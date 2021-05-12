@@ -11,7 +11,7 @@ const ChartContainer = () =>  {
     const getSongs = function() {
         fetch('https://itunes.apple.com/gb/rss/topsongs/limit=20/json')
         .then(res => res.json())
-        .then(songs => setSongs(songs))
+        .then(songs => setSongs(songs.feed.entry))
     };
     //songs.feed.entry[0]["im:name"].label
 
